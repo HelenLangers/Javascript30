@@ -7,7 +7,7 @@
 
 ## Learning Notes
 ### Transform-origin CSS attribute
-Without setting this attribute, an element will transform around the center of itself. If you set it to 100%, it'll transform around the end of itself, like the hands of a clock do
+Without setting this attribute, an element will transform around the center of itself (50%). If you set it to 100%, it'll transform around the end of the x-axis, like the hands of a clock do
 ```css
 .hand{
     width: 50%;
@@ -19,6 +19,25 @@ Without setting this attribute, an element will transform around the center of i
     transform: rotate(90deg);
 }
 ```
+
+### Transition Timing Function
+Add a custom transition effect, in this case it adds the movement of the second hand.
+``` css
+.hand {
+    width: 50%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); 
+}
+```
+
+You can use the Chrome dev tools to create your own cubic-bezier
+
 
 ### Getting minutes and hours from JS Date
 I already knew about the JS Date function, but didn't know about the extra now.getHours() etc
