@@ -7,7 +7,7 @@
 - When a user presses a certain key, an audio will be played.
 - CSS animation will change the key when it's pressed.
 
-## Takeaways
+## Learning Notes
 ### Data Attributes in HTML
 Link two elements using a custom data attribute
 ```html
