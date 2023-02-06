@@ -1,4 +1,5 @@
 # 02 - Javascript and CSS clock
+![](./screenshot2.jpg)
 
 ## Main goals
 
