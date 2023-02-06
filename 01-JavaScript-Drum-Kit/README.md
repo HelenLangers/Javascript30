@@ -1,6 +1,6 @@
 # 01 - JavaScript Drum Kit
 
-![](./screenshot_1.jpg)
+![](./screenshot1.jpg)
 
 ## Main goals
 
