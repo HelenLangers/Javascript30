@@ -22,7 +22,7 @@ const fifteen = inventors.filter(inventor => {
 
 But was reminded about the implicit return and truthy/falsey of JS and refactored to:
 ``` javascript
-const fiften = inventors.filter(inventor => inventor.year >= 1500 && inventor.year <= 1599)
+const fifteen = inventors.filter(inventor => inventor.year >= 1500 && inventor.year <= 1599)
 ```
 
 ### Turning a node list into an array

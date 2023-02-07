@@ -36,7 +36,7 @@
     })
 
     // a more concise method considering the arrow function has an implicit return
-    //const fiften = inventors.filter(inventor => inventor.year >= 1500 && inventor.year <= 1599)
+    //const fifteen = inventors.filter(inventor => inventor.year >= 1500 && inventor.year <= 1599)
 
     console.table(fifteen)
 
