@@ -1,5 +1,5 @@
 # 05 - Flex Panel Gallery
-![](./screenshot4.jpg)
+![](./screenshot5.jpg)
 
 ## Main goals
 
