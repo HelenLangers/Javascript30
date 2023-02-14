@@ -1,4 +1,4 @@
-# 05 - Ajax Type Ahead
+# 06 - Ajax Type Ahead
 ![](./screenshot6.jpg)
 
 ## Main goals
