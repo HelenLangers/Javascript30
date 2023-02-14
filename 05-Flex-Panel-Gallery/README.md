@@ -23,3 +23,6 @@ Giving the child components (in this case, individual panels) a flex of 1, it te
 ```
 
 When the panel is open, it's given a class with a flex of 5. This means it gives itself 5 times the amount of room than the rest of them.
+
+
+# 
