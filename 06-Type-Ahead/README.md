@@ -3,7 +3,7 @@
 
 ## Main goals
 
-- Search feature that matches whatever is typed in 
+- Search feature that filters a JSON on whatever is typed in and returns matches while typing
 
 ## Learning Notes
 # fetch
