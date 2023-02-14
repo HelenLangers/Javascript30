@@ -1,5 +1,5 @@
 # 07 - Array Cardio Day 2
-![](./screenshot6.jpg)
+![](./screenshot7.jpg)
 
 ## Main goals
 
