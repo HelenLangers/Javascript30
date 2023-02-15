@@ -9,7 +9,7 @@ canvas.width = window.innerHeight;
 ctx.strokeStyle = '#BADA55'
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
-ctx.lineWidth = 100;
+ctx.lineWidth = 50;
 let hue = 0;
 let direction = true
 
