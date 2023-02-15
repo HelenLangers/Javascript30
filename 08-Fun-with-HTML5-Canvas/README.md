@@ -26,3 +26,5 @@ ctx.strokeStyle = '#BADA55'
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
 ```
+
+This was a nice exercise, but I'm not sure when it would be useful. It was good to see more event listeners and when you need to cover all bases with the mouse movements.
