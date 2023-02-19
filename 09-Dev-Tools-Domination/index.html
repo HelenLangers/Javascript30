@@ -19,28 +19,57 @@
     }
 
     // Regular
+    console.log("hello")
 
     // Interpolated
+    console.log("hello I am an %s string!", "interpolated")
 
     // Styled
+    console.log("%c I am some great text", "font-size: 50px")
 
     // warning!
+    console.warn("oh no! warning in the console")
 
     // Error :|
+    console.error("displayed error in the console")
 
     // Info
+    console.info("Crocodiles eat 3 - 4 people per year")
 
     // Testing
+    const p = document.querySelector('p')
+    console.assert(p.classList.contains('ouch'), "That is wrong")
 
     // clearing
+    console.clear();
 
     // Viewing DOM Elements
+    console.dir(p)
 
     // Grouping together
 
+    dogs.forEach(dog => {
+      // define the group using a string
+      console.group(`${dog.name}`)
+      console.log(`This is ${dog.name}`)
+      console.log(`${dog.name} is ${dog.age} years old`)
+      // end the group with the string used to define it
+      console.groupEnd(`${dog.name}`)
+    })
+
     // counting
+    console.count('Word')
 
     // timing
+    // start the timer using a specific string
+    console.time("fetching data");
+    fetch("https://api.github.com/users/wesbos")
+      .then(data => data.json())
+      .then(data => {
+        // end the timer user the same string you used to start it
+        console.timeEnd('fetching data')
+        console.log(data)
+      })
 
   </script>
 </body>
