@@ -6,14 +6,14 @@
 - Learn some extra cool dev tools and tricks
 
 ## Learning Notes
-# Add breaks
+### Add breaks
 I've used break points before but this was a great reminder of how to do it.
 
 In this example, you add a debugger break point on the paragraph tag to find out which line of code is causing the change of colour on click.
 
 In the Elements tab, right click the p tag > Break on > attribute modification. Then click the paragraph in the window and the debugger will show you the line of code in the Sources tab that's making the modification.
 
-# Console.log()
+### Console.log()
 There are some cool things you can do with console.log that I wasn't aware of. 
 
 **Interpolation**: console.log can take two arguments using %s as a placeholder
