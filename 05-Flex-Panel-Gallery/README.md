@@ -6,7 +6,7 @@
 - Make a flex gallery using predominantly CSS with JS
 
 ## Learning Notes
-# Flex
+### Flex
 I feel quite comfortable with the basic fundamentals of flex box (flex-direction, align-items, justify-content etc), so I'm ready to progress to these slightly less-basic uses.
 
 Giving the child components (in this case, individual panels) a flex of 1, it tells them to spread evenly across the space.
@@ -25,7 +25,7 @@ Giving the child components (in this case, individual panels) a flex of 1, it te
 When the panel is open, it's given a class with a flex of 5. This means it gives itself 5 times the amount of room than the rest of them.
 
 
-# Class List Toggle
+### Class List Toggle
 ``` javascript
 function toggleOpen(){
     this.classList.toggle('open');
@@ -44,7 +44,7 @@ function toggleActive(e){
 panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
 ```
 
-# .includes
+### .includes
 Transitionend was listening to flex to finish, but depending on the browser, it was either 'flex' or 'flex-grow'. A way to cover all these options without having multiple | , it's best to use the inbuilt 'includes' operator.
 
 ``` javascript
