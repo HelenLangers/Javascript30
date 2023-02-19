@@ -6,7 +6,7 @@
 - Create a canvas like Windows Paint in the browser
 
 ## Learning Notes
-# Canvas is a built in thing
+### Canvas is a built in thing
 The Canvas element is a container for graphics which are defined using javascript. The initial setup is simple:
 ``` html
 <canvas id="draw" width="800" height="800"></canvas>
