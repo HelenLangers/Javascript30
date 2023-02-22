@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+  <link rel="icon" href="https://fav.farm/🔥" />
+</head>
+<body>
+<script>
+  // create an empty array
+  const pressed = []
+  // define the sequence people need to push
+  const secretCode = 'wesbos'
+  window.addEventListener('keyup', (e) => {
+    pressed.push(e.key)
+    //make a maximum length of the necessary array
+    pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length)
+    // turn the array into a string using join
+    if(pressed.join('').includes(secretCode)){
+      console.log('hooray you did it!')
+      
+    }
+  })
+</script>
+</body>
+</html>
