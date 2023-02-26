@@ -1,5 +1,5 @@
 # 14 - Javascript References vs Copying
-![](./screenshot14.jpg)
+![](./screenshot14.jpeg)
 
 ## Main goals
 
